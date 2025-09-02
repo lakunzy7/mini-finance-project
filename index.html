@@ -1,27 +1,3 @@
-<footer id="mini-finance-footer" aria-label="site footer">
-  Mini Finance v1.0 — Deployed on 02 Sep 2025 — OWOFOLA OLAKUNLE
+<footer style="background:#222;color:#fff;padding:10px;text-align:center;font-size:14px;">
+  Mini Finance v1.0 — Deployed on 02 Sep 2025 — By Owofola Olakunle
 </footer>
-
-<style>
-  #mini-finance-footer{
-    font-size: 0.95rem;
-    padding: 10px 8px;
-    text-align: center;
-    background: transparent;
-    color: #222;            /* high contrast on white page */
-    line-height: 1.2;
-  }
-</style>
-
-<script>
-(function(){
-  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const d = new Date();
-  const day = String(d.getDate()).padStart(2,'0');
-  const month = months[d.getMonth()];
-  const year = d.getFullYear();
-  const student = 'Your Name'; // replace
-  const footer = document.getElementById('mini-finance-footer');
-  footer.textContent = `Mini Finance v1.0 — Deployed on ${day} ${month} ${year} — By ${student}`;
-})();
-</script>
