@@ -1,0 +1,8 @@
+<footer id="mini-footer" style="background:#222;color:#fff;padding:10px;text-align:center;font-size:14px;"></footer>
+<script>
+  const today = new Date();
+  const options = { day: '2-digit', month: 'short', year: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-GB', options);
+  document.getElementById("mini-footer").innerText =
+    `Mini Finance v1.0 — Deployed on ${formattedDate} — Owofola Olakunle`;
+</script>
